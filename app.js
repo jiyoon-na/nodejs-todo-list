@@ -1,4 +1,4 @@
-import express from "express"; //읽기순서 1. express 라이브러리 가져와서
+import express from 'express'; //읽기순서 1. express 라이브러리 가져와서
 import connect from "./schemas/index.js";
 import todosRouter from "./routes/todos.router.js";
 import errorHandlerMiddleware from "./middlewares/error-handler.middleware.js";
